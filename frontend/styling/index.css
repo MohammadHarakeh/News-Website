@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -14,50 +15,56 @@
   align-items: center;
   justify-content: center;
   margin-top: 2%;
-  background-color: green;
+  background-color: #f2f2f2;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .addnews-wrapper a {
-  background-color: blueviolet;
-  padding: 1%;
-  border-radius: 10px;
-  margin-bottom: 1%;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
   cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 
 .addnews-wrapper a:hover {
-  background-color: blue;
+  background-color: #4834d4;
 }
 
 .title {
-  margin: 1%;
-  width: 35%;
-  text-align: center;
+  margin: 10px 0;
+  width: 80%;
 }
 .title label {
-  font-size: 150%;
+  font-size: 20px;
+  font-weight: bold;
 }
 .title input {
   width: 100%;
-  font-size: 120%;
+  font-size: 16px;
+  padding: 10px;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .content {
-  margin-bottom: 1%;
-  text-align: center;
-  width: 35%;
-  height: 20vh;
-  margin-bottom: 5%;
+  margin: 10px 0;
+  width: 80%;
 }
 .content label {
-  font-size: 150%;
+  font-size: 20px;
+  font-weight: bold;
 }
 .content textarea {
   width: 100%;
-  font-size: 100%;
-  height: 100%;
-  padding: 5px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .latest-news-title {
@@ -65,7 +72,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: aqua;
+  margin-top: 20px;
 }
 
 #newsList {
@@ -73,13 +80,25 @@
   width: 60%;
   justify-content: center;
   flex-direction: column;
-  background-color: purple;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #newsList h2 {
   text-align: center;
-  padding: 1%;
+  padding: 10px;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .news-wrapper {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+.news-wrapper p {
+  font-size: 18px;
 }
