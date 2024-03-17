@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/frontend/styling/index.css" />
+    <title>News Website</title>
+  </head>
+  <body>
+    <div>
+      <form id="addnews-wrapper" class="addnews-wrapper">
+        <h1>Add News</h1>
+
+        <div class="title">
+          <label for="title">Title:</label><br />
+          <input type="text" id="title" class="addnews-input" /><br />
+        </div>
+
+        <div class="content">
+          <label for="content">Content:</label><br />
+          <textarea id="content"></textarea><br />
+        </div>
+
+        <a id="submit">Submit</a>
+      </form>
+      <div class="latest-news-title">
+        <h1>Latest News</h1>
+        <ul id="newsList"></ul>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/frontend/scripts/index.js"></script>
+  </body>
+</html>
