@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.addnews-wrapper {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  background-color: green;
+}
+
+.addnews-wrapper a {
+  background-color: blueviolet;
+  padding: 1%;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.addnews-wrapper a:hover {
+  background-color: blue;
+}
+
+.title {
+  margin: 1%;
+  width: 35%;
+  text-align: center;
+}
+.title label {
+  font-size: 150%;
+}
+.title input {
+  width: 100%;
+  font-size: 120%;
+  border: 1px solid #ccc;
+}
+
+.content {
+  margin-bottom: 1%;
+  text-align: center;
+  width: 35%;
+  height: 20vh;
+  margin-bottom: 5%;
+}
+.content label {
+  font-size: 150%;
+}
+.content textarea {
+  width: 100%;
+  font-size: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.latest-news-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+#newsList {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: purple;
+}
+
+#newsList h2 {
+  text-align: center;
+  padding: 1%;
+}
+
+.news-wrapper {
+}
